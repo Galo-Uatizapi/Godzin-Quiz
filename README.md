@@ -6,7 +6,7 @@ Termux:
 $ pkg update && pkg upgrade -y
 $ pkg install git -y
 $ pkg install python -y
-$ git clone https://github.com/Godzin444/Godzin-Quiz
+$ git clone https://github.com/Galo-Uatizapi/Godzin-Quiz
 $ cd Godzin-Quiz
 $ python3 Quiz.py
 ```
