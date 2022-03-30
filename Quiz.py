@@ -143,8 +143,31 @@ while True:
                         elif Qomqtvod == 1:
                             print('\033[7;31mVixi, errou :/\033[m')
                         elif Qomqtvod == 2:
+                            os.system("clear")
+                            print ('\033[7;32mAcertou :D\033[m')
                             time.sleep(2)
                             os.system("clear")
+                            print('''\033[7;35mQuestão 8\033[m
+                       
+\033[0;35mQuantas letras tem o alfabeto?
+     
+[ \033[m0\033[0;35m ] 32 Letras
+[ \033[m1\033[0;35m ] 22 Letras
+[ \033[m2\033[0;35m ] 26 letras
+[ \033[m3\033[0;35m ] 27 Letras\033[m''')
+                            Qltoa = int(input('>> \033[0;33m'))
+                            if Qltoa == 0:
+                                print('\033[7;31]Vixi, errou :/\033[m')
+                            elif Qltoa == 1:
+                                print('\033[7;31mVixi, errou :/\033[m')
+                            elif Qltoa == 3:
+                                print('\033[7;31mVixi, errou :/\033[m')
+                            elif Qltoa == 2:
+                                os.system("clear")
+                                print('\033[7;32mAcertou :D\033[m')
+                                time.sleep(2)
+                                os.system("clear")
+                            
                             time.sleep(2)
                             print('\033[0;35mP')
                             time.sleep(0.2)
@@ -351,25 +374,25 @@ Criador: \033[0;33mKaio\033[m''')
       Wwtsww = int(input('>> \033[0;33m'))
       if Wwtsww == 3:
          os.system("clear")
-         print('''\033[7;32mAcertou :D\033[m''')
+         print('''\033[7;32mCorrect :D\033[m''')
          time.sleep(2)
          os.system("clear")
          print('''\033[7;35mQuestion 2\033[m
 
-\033[0;35mWho discovered the united states?
+\033[0;35mWho discovered the brazil?
           
 [ \033[m0\033[0;35m ] Santos Dumont
 [ \033[m1\033[0;35m ] Philo Farnsworth
 [ \033[m2\033[0;35m ] Pedro Álvares Cabral
 [ \033[m3\033[0;35m ] Thomas Alva Edison\033[m''')
-         Wdtus = int(input('>> \033[0;33m'))
-         if Wdtus == 0:
+         Wdtb = int(input('>> \033[0;33m'))
+         if Wdtb == 0:
            print('\033[7;31mUh, wrong :/\033[m')
-         elif Wdtus == 1:
+         elif Wdtb == 1:
              print('\033[7;31mUh, wrong :/\033[m')
-         elif Wdtus == 2:
+         elif Wdtb == 2:
            os.system("clear")
-           print('\033[7;32mAcertou :D\033[m')
+           print('\033[7;32mCorrect :D\033[m')
            time.sleep(2)
            os.system("clear")
            print('''\033[7;35mQuestion 3\033[m
@@ -387,7 +410,7 @@ Criador: \033[0;33mKaio\033[m''')
              print('\033[7;31mUh, wrong :/\033[m')
            elif Hmcdtrh == 0:
              os.system("clear")
-             print('\033[7;32mAcertou :D\033[m')
+             print('\033[7;32mCorrect :D\033[m')
              time.sleep(2)
              os.system("clear")
              print('''\033[7;35mQuestion 4\033[m
@@ -403,7 +426,7 @@ Criador: \033[0;33mKaio\033[m''')
                  print('\033[7;31mUh, wrong :/\033[m')
              elif Witlpioss == 1:
                  os.system("clear")
-                 print('\033[7;32mAcertou :D\033[m')
+                 print('\033[7;32mCorrect :D\033[m')
                  time.sleep(2)
                  os.system("clear")
                  print('''\033[7;35mQuestion 5\033[m
@@ -423,12 +446,12 @@ Criador: \033[0;33mKaio\033[m''')
                     print('\033[7;31mUh, wrong :/\033[m')
                  elif Wotaac == 3:
                     os.system("clear")
-                    print('\033[7;32mAcertou :D\033[m')
+                    print('\033[7;32mCorrect :D\033[m')
                     time.sleep(2)
                     os.system("clear")
                     print('''\033[7;35mQuestion 6\033[m
                        
-\033[0;35mWhat is celebrated on 12/25?
+\033[0;35mWhat is celebrated on 25/12?
                
 [ \033[m0\033[0;35m ] Christmas
 [ \033[m1\033[0;35m ] Halloween
@@ -437,7 +460,7 @@ Criador: \033[0;33mKaio\033[m''')
                     Wicosla = int(input('>> \033[0;33m'))
                     if Wicosla == 0:
                         os.system("clear")
-                        print('\033[7;32mAcertou :D\033[m')
+                        print('\033[7;32mCorrect :D\033[m')
                         time.sleep(2)
                         os.system("clear")
                         print('''\033[7;35mQuestion 7\033[m
@@ -455,10 +478,30 @@ Criador: \033[0;33mKaio\033[m''')
                             print('\033[7;31mUh, wrong :/\033[m')
                         elif Wmhslad == 2:
                             os.system("clear")
-                            print('\033[7;32mAcertou :D\033[m')
+                            print('\033[7;32mCorrect :D\033[m')
                             time.sleep(2)
                             os.system("clear")
-                            time.sleep(2)
+                            print('''\033[7;35mQuestion 8\033[m
+                       
+\033[0;35mHow many letters does the alphabet have?
+     
+[ \033[m0\033[0;35m ] 32 Letters
+[ \033[m1\033[0;35m ] 22 Letters
+[ \033[m2\033[0;35m ] 26 Letters
+[ \033[m3\033[0;35m ] 27 Letters\033[m''')
+                            Hmldtah = int(input('>> \033[0;33m'))
+                            if Hmldtah == 0:
+                                print('\033[7;31mUh, wrong :/\033[m')
+                            elif Hmldtah == 1:
+                                print('\033[7;31mUh, wrong :/\033[m')
+                            elif Hmldtah == 3:
+                                print('\033[7;31mUh, wrong :/\033[m')
+                            elif Hmldtah == 2:
+                                os.system("clear")
+                                print('\033[7;32mCorrect :D\033[m')
+                                time.sleep(2)
+                                os.system("clear")
+                                
                             print('\033[0;35mP')
                             time.sleep(0.2)
                             os.system("clear")
@@ -554,7 +597,7 @@ Criador: \033[0;33mKaio\033[m''')
            elif Hmcdtrh == 3:
              print('\033[7;31mUh, wrong :/\033[m')
            
-         elif Wdtus == 3:
+         elif Wdtb == 3:
            print('\033[7;31mUh, wrong :/\033[m')
              
       elif Wwtsww == 1:
