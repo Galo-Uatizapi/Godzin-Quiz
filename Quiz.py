@@ -9,6 +9,7 @@ import os
 import time
 
 os.system("clear")
+
 while True:
  print('''\033[0;35mEscolha o seu idioma. | Choose your language.
 	
@@ -21,13 +22,13 @@ while True:
   while True:  
    print('''\033[0;35m[ \033[m0\033[0;35m ] Começar
       
-[ \033[m98\033[0;35m ] Ajudantes
+[ \033[m98\033[0;35m ] Idioma
 [ \033[m99\033[0;35m ]\033[m \033[0;31mSair\033[m''')
    opção = int(input('>> \033[0;33m'))
    if opção == 0:
       os.system("clear")
       print('\033[0;35mOk, vamos começar\033[m')
-      time.sleep(3)
+      time.sleep(2)
       os.system("clear")
       print('''\033[7;35mQuestão 1\033[m
 
@@ -41,7 +42,7 @@ while True:
       if Qfasgm == 3:
          os.system("clear")
          print('''\033[7;32mAcertou :D\033[m''')
-         time.sleep(2)
+         time.sleep(1.5)
          os.system("clear")
          print('''\033[7;35mQuestão 2\033[m
 
@@ -54,12 +55,16 @@ while True:
          Qdob = int(input('>> \033[0;33m'))
          if Qdob == 0:
            print('\033[7;31mVixi, errou :/\033[m')
+           time.sleep(1.5)
+           os.system("clear")
          elif Qdob == 1:
-             print('\033[7;31mVixi, errou :/\033[m')
+           print('\033[7;31mVixi, errou :/\033[m')
+           time.sleep(1.5)
+           os.system("clear")
          elif Qdob == 2:
            os.system("clear")
            print('\033[7;32mAcertou :D\033[m')
-           time.sleep(2)
+           time.sleep(1.5)
            os.system("clear")
            print('''\033[7;35mQuestão 3\033[m
 
@@ -72,12 +77,16 @@ while True:
            Qctoai = int(input('>> \033[0;33m'))
            if Qctoai == 2:
              print('\033[7;31mVixi, errou :/\033[m')
+             time.sleep(1.5)
+             os.system("clear")
            elif Qctoai == 1:
              print('\033[7;31mVixi, errou :/\033[m')
+             time.sleep(1.5)
+             os.system("clear")
            elif Qctoai == 0:
              os.system("clear")
              print('\033[7;32mAcertou :D\033[m')
-             time.sleep(2)
+             time.sleep(1.5)
              os.system("clear")
              print('''\033[7;35mQuestão 4\033[m
              	
@@ -90,10 +99,12 @@ while True:
              Qompdnss = int(input('>> \033[0;33m'))
              if Qompdnss == 0:
                  print('\033[7;31mVixi, errou :/\033[m')
+                 time.sleep(1.5)
+                 os.system("clear")
              elif Qompdnss == 1:
                  os.system("clear")
                  print('\033[7;32mAcertou :D\033[m')
-                 time.sleep(2)
+                 time.sleep(1.5)
                  os.system("clear")
                  print('''\033[7;35mQuestão 5\033[m
                        
@@ -106,14 +117,20 @@ while True:
                  Qdasc = int(input('>> \033[0;33m'))
                  if Qdasc == 0:
                     print('\033[7;31mVixi, errou :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")
                  elif Qdasc == 1:
                     print('\033[7;31mVixi, errou :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")
                  elif Qdasc == 2:
                     print('\033[7;31mVixi, errou :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")
                  elif Qdasc == 3:
                     os.system("clear")
                     print('\033[7;32mAcertou :D\033[m')
-                    time.sleep(2)
+                    time.sleep(1.5)
                     os.system("clear")
                     print('''\033[7;35mQuestão 6\033[m
                        
@@ -127,7 +144,7 @@ while True:
                     if Oqecndvd == 0:
                         os.system("clear")
                         print('\033[7;32mAcertou :D\033[m')
-                        time.sleep(2)
+                        time.sleep(1.5)
                         os.system("clear")
                         print('''\033[7;35mQuestão 7\033[m
 
@@ -140,8 +157,12 @@ while True:
                         Qomqtvod = int(input('>> \033[0;33m'))
                         if Qomqtvod == 0:
                             print('\033[7;31mVixi, errou :/\033[m')
+                            time.sleep(1)
+                            os.system("clear")                 
                         elif Qomqtvod == 1:
                             print('\033[7;31mVixi, errou :/\033[m')
+                            time.sleep(1)
+                            os.system("clear")               
                         elif Qomqtvod == 2:
                             os.system("clear")
                             print ('\033[7;32mAcertou :D\033[m')
@@ -157,205 +178,148 @@ while True:
 [ \033[m3\033[0;35m ] 27 Letras\033[m''')
                             Qltoa = int(input('>> \033[0;33m'))
                             if Qltoa == 0:
-                                print('\033[7;31]Vixi, errou :/\033[m')
+                                print('\033[7;31mVixi, errou :/\033[m')
+                                time.sleep(1.5)
+                                os.system("clear")
                             elif Qltoa == 1:
                                 print('\033[7;31mVixi, errou :/\033[m')
+                                time.sleep(1.5)
+                                os.system("clear")
                             elif Qltoa == 3:
                                 print('\033[7;31mVixi, errou :/\033[m')
+                                time.sleep(1.5)
+                                os.system("clear")                                                                
                             elif Qltoa == 2:
                                 os.system("clear")
                                 print('\033[7;32mAcertou :D\033[m')
-                                time.sleep(2)
+                                time.sleep(1.5)
                                 os.system("clear")
-                            
-                            time.sleep(2)
-                            print('\033[0;35mP')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Pa')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Par')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Para')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parab')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabé')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabén')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns p')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns po')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por c')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por co')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por com')
-                            time.sleep(0.2)
-                            os.system("clear")                         
-                            print('Parabéns por comp')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por compl')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por comple')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por complet')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completa')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Q')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Qu')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Qui')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Quiz')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Quiz!')
-                            time.sleep(1)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
+                                print('''\033[7;35mQuestão 9\033[m
+                       
+\033[0;35mQual é o rio mais poluído do mundo?
+     
+[ \033[m0\033[0;35m ] Rio Hualai
+[ \033[m1\033[0;35m ] Rio Tietê
+[ \033[m2\033[0;35m ] Rio Amazonas
+[ \033[m3\033[0;35m ] Rio Paraná\033[m''')
+                                Qeormpdm = int(input('>> \033[0;33m'))
+                                if Qeormpdm == 0:
+                                    print('\033[7;31mVixi, errou :/\033[m')
+                                    time.sleep(1.5)
+                                    os.system("clear")
+                                elif Qeormpdm == 1:
+                                    os.system("clear")
+                                    print('\033[7;32mAcertou :D\033[m')
+                                    time.sleep(1.5)
+                                    os.system("clear")
+                                elif Qeormpdm == 2:
+                                    print('\033[7;31mVixi, errou :/\033[m')
+                                    time.sleep(1.5)
+                                    os.system("clear")
+                                elif Qeormpdm == 3:
+                                    print('\033[7;31mVixi, errou :/\033[m')
+                                    time.sleep(1.5)
+                                    os.system("clear")
+                                else:
+                                    print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+                                    time.sleep(1)
+                                    os.system("clear")
+                            else:
+                                print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+                                time.sleep(1)
+                                os.system("clear")
 
-C''')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Cr''')   
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Cri''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Cria''')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Criad''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Criado''')    
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Criador''')                 
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Criador:''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''Parabéns por completar o Quiz!
-
-Criador: \033[0;33mK\033[m''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''\033[0;35mParabéns por completar o Quiz!
-
-Criador: \033[0;33mKa\033[m''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''\033[0;35mParabéns por completar o Quiz!
-
-Criador: \033[0;33mKai\033[m''')           
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('''\033[0;35mParabéns por completar o Quiz!
-
-Criador: \033[0;33mKaio\033[m''')           
-        
                         elif Qomqtvod == 3:
                             print('\033[7;31mVixi, errou :/\033[m')
-
+                            time.sleep(1.5)
+                            os.system("clear")
+                        else:
+                            print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+                            time.sleep(1)
+                            os.system("clear")
+                                
                     elif Oqecndvd == 1:
                         print('\033[7;31mVixi, errou :/\033[m')
+                        time.sleep(1)
+                        os.system("clear")                
                     elif Oqecndvd == 2:
                         print('\033[7;31mVixi, errou :/\033[m')
+                        time.sleep(1)
+                        os.system("clear")               
                     elif Oqecndvd == 3:
                         print('\033[7;31mVixi, errou :/\033[m')
-
+                        time.sleep(1)
+                        os.system("clear")                 
+                    else:
+                        print('\033[7;35mOpção inválida. Tente novamente.\033[m')        
+                        time.sleep(1)
+                        os.system("clear")
+                        
              elif Qompdnss == 2:
                  print('\033[7;31mVixi, errou :/\033[m')
+                 time.sleep(1)
+                 os.system("clear")               
              elif Qompdnss == 3:
                  print('\033[7;31mVixi, errou :/\033[m')
-                   
+                 time.sleep(1)
+                 os.system("clear")                 
+             else:
+                 print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+                 time.sleep(1)
+                 os.system("clear")
+                 
            elif Qctoai == 3:
              print('\033[7;31mVixi, errou :/\033[m')
-           
+             time.sleep(1.5)
+             os.system("clear")
+           else:
+             print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+             time.sleep(1)
+             os.system("clear")
+             
          elif Qdob == 3:
            print('\033[7;31mVixi, errou :/\033[m')
-             
+           time.sleep(1.5)
+           os.system("clear")
+         else:
+           print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+           time.sleep(1)
+           os.system("clear")
+           
       elif Qfasgm == 1:
           print('\033[7;31mVixi, errou :/\033[m')
+          time.sleep(1.5)
+          os.system("clear")
       elif Qfasgm == 2:
           print('\033[7;31mVixi, errou :/\033[m')
+          time.sleep(1.5)
+          os.system("clear")
       elif Qfasgm == 0:
           print('\033[7;31mVixi, errou :/\033[m')
-         
-      time.sleep(1)
-      os.system("clear")  
+          time.sleep(1.5)
+          os.system("clear")
+      else:
+          print('\033[7;35mOpção inválida. Tente novamente.\033[m')
+          time.sleep(1)
+          os.system("clear")   
           
    elif opção == 98:
        os.system("clear")
-       print('''\033[7;35mNenhum ajudante''')
-       Ajudnts = input('\033[m<\033[0;35mAperte \033[0;33mEnter \033[0;35mpara voltar\033[m>')
-       os.system("clear")
+       break
    elif opção == 99:
        print('\033[7;35mVocê saiu do Quiz. Volte sempre!\033[m')
        exit()
           
    else:
        print('\033[7;35mOpção inválida. Tente novamente\033[m')      
-       time.sleep(1)
+       time.sleep(1.5)
        os.system("clear")
        
  elif Idioma == 1:
   while True:
    print('''\033[0;35m[ \033[m0\033[0;35m ] Start
       
-[ \033[m98\033[0;35m ] Helpers
+[ \033[m98\033[0;35m ] Language
 [ \033[m99\033[0;35m ]\033[m \033[0;31mExit\033[m''')
    opção = int(input('>> \033[0;33m'))
    if opção == 0:
@@ -379,11 +343,11 @@ Criador: \033[0;33mKaio\033[m''')
          os.system("clear")
          print('''\033[7;35mQuestion 2\033[m
 
-\033[0;35mWho discovered the brazil?
+\033[0;35mWho discovered the america?
           
 [ \033[m0\033[0;35m ] Santos Dumont
 [ \033[m1\033[0;35m ] Philo Farnsworth
-[ \033[m2\033[0;35m ] Pedro Álvares Cabral
+[ \033[m2\033[0;35m ] Pedro Christopher Colombia
 [ \033[m3\033[0;35m ] Thomas Alva Edison\033[m''')
          Wdtb = int(input('>> \033[0;33m'))
          if Wdtb == 0:
@@ -492,129 +456,134 @@ Criador: \033[0;33mKaio\033[m''')
                             Hmldtah = int(input('>> \033[0;33m'))
                             if Hmldtah == 0:
                                 print('\033[7;31mUh, wrong :/\033[m')
+                                time.sleep(1)
+                                os.system("clear")                
                             elif Hmldtah == 1:
                                 print('\033[7;31mUh, wrong :/\033[m')
+                                time.sleep(1)
+                                os.system("clear")                 
                             elif Hmldtah == 3:
                                 print('\033[7;31mUh, wrong :/\033[m')
+                                time.sleep(1)
+                                os.system("clear")                
                             elif Hmldtah == 2:
                                 os.system("clear")
                                 print('\033[7;32mCorrect :D\033[m')
                                 time.sleep(2)
                                 os.system("clear")
+                                print('''\033[7;35mQuestion 9\033[m
                                 
-                            print('\033[0;35mP')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Pa')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Par')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Para')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parab')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabé')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabén')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns p')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns po')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por c')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por co')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por com')
-                            time.sleep(0.2)
-                            os.system("clear")                         
-                            print('Parabéns por comp')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por compl')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por comple')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por complet')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completa')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Q')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Qu')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Qui')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Quiz')
-                            time.sleep(0.2)
-                            os.system("clear")
-                            print('Parabéns por completar o Quiz!')                          
-                                       
+\033[0;35mWhat is the most polluted river in the world?
+     
+[ \033[m0\033[0;35m ] Hualai River
+[ \033[m1\033[0;35m ] Tiete River
+[ \033[m2\033[0;35m ] Amazon river
+[ \033[m3\033[0;35m ] Parana River\033[m''')
+                            Witmpritw = int(input('>> \033[0;33m'))
+                            if Witmpritw == 0:
+                                print('\033[7;31mUh, wrong :/\033[m')
+                                time.sleep(1)
+                                os.system("clear")                
+                            elif Witmpritw == 1:
+                                os.system("clear")
+                                print('\033[7;32mCorrect :D\033[m')
+                                time.sleep(2)
+                                os.system("clear")
+                            elif Witmpritw == 2:
+                                print('\033[7;31mUh, wrong :/\033[m')
+                                time.sleep(1)
+                                os.system("clear")                
+                            elif Witmpritw == 3:
+                                print('\033[7;31muh, wrong :/\033[m')          
+                                time.sleep(1)
+                                os.system("clear")                
+                            else:
+                                print('\033[7;35mInvalid option. Try again.\033[m') 
+                                time.sleep(1) 
+                                os.system("clear")
+                                  
                         elif Wmhslad == 3:
                             print('\033[7;31mUh, wrong :/\033[m')
+                            time.sleep(1)
+                            os.system("clear")                
+                        else:
+                            print('\033[7;35mInvalid option. Try again.\033[m')
+                            time.sleep(1)
+                            os.system("clear")  
+             
 
                     elif Wicosla == 1:
                         print('\033[7;31mUh, wrong :/\033[m')
+                        time.sleep(1)
+                        os.system("clear")                
                     elif Wicosla == 2:
                         print('\033[7;31mUh, wrong :/\033[m')
+                        time.sleep(1)
+                        os.system("clear")                
                     elif Wicosla == 3:
                         print('\033[7;31mUh, wrong :/\033[m')
-
+                        time.sleep(1)
+                        os.system("clear")                
+                    else:
+                        print('\033[7;35mInvalid option. Try again.\033[m')
+                        time.sleep(1)
+                        os.system("clear") 
+                 else:
+                      print('\033[7;35mInvalid option. Try again.\033[m')
+                      time.sleep(1)
+                      os.system("clear")              
+             
              elif Witlpioss == 2:
                  print('\033[7;31mUh, wrong :/\033[m')
+                 time.sleep(1)
+                 os.system("clear")                
              elif Witlpioss == 3:
                  print('\033[7;31mUh, wrong :/\033[m')
-                   
+                 time.sleep(1)
+                 os.system("clear")                
+             else:
+                 print('\033[7;35mInvalid option. Try again.\033[m')
+                 time.sleep(1)
+                 os.system("clear")  
+                  
            elif Hmcdtrh == 3:
              print('\033[7;31mUh, wrong :/\033[m')
-           
+             time.sleep(1)
+             os.system("clear")                
+           else:              
+             print('\033[7;35mInvalid option. Try again.\033[m')
+             time.sleep(1)
+             os.system("clear")  
+             
          elif Wdtb == 3:
            print('\033[7;31mUh, wrong :/\033[m')
-             
+           time.sleep(1)
+           os.system("clear")               
+         else:
+             print('\033[7;35mInvalid option. Try again.\033[m')
+             time.sleep(1)
+             os.system("clear")  
+                      
       elif Wwtsww == 1:
           print('\033[7;31mUh, wrong :/\033[m')
+          time.sleep(1)
+          os.system("clear")                
       elif Wwtsww == 2:
           print('\033[7;31mUh, wrong :/\033[m')
+          time.sleep(1)
+          os.system("clear")                
       elif Wwtsww == 0:
           print('\033[7;31mUh, wrong :/\033[m')
-         
-      time.sleep(1)
-      os.system("clear")  
-                   
+          time.sleep(1)
+          os.system("clear")                
+      else:
+          print('\033[7;35mInvalid option. Try again.\033[m')
+          time.sleep(1)
+          os.system("clear")
+               
    elif opção == 98:
        os.system("clear")
-       print('''\033[7;35mNo helpers''')
-       helpers = input('\033[m<\033[0;35mPress \033[0;33mEnter \033[0;35mto come back\033[m>')
-       os.system("clear")
+       break
    elif opção == 99:
        print('\033[7;35mYou left the Quiz. Come back anytime!\033[m')
        exit()
@@ -623,7 +592,7 @@ Criador: \033[0;33mKaio\033[m''')
        print('\033[7;35mInvalid option. Try again.\033[m')      
        time.sleep(1)
        os.system("clear")
-else:
+ else:
     print('\033[7;35mOpção inválida. | Invalid option.\033[m')  
     time.sleep(1)
     os.system("clear")  
