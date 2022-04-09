@@ -325,7 +325,7 @@ while True:
    if opção == 0:
       os.system("clear")
       print('\033[0;35mOk, let`s start\033[m')
-      time.sleep(3)
+      time.sleep(2)
       os.system("clear")
       print('''\033[7;35mQuestion 1\033[m
 
@@ -349,12 +349,16 @@ while True:
 [ \033[m1\033[0;35m ] Philo Farnsworth
 [ \033[m2\033[0;35m ] Pedro Christopher Colombia
 [ \033[m3\033[0;35m ] Thomas Alva Edison\033[m''')
-         Wdtb = int(input('>> \033[0;33m'))
-         if Wdtb == 0:
+         Wdta = int(input('>> \033[0;33m'))
+         if Wdta == 0:
            print('\033[7;31mUh, wrong :/\033[m')
-         elif Wdtb == 1:
+           time.sleep(1.5)
+           os.system("clear")
+         elif Wdta == 1:
              print('\033[7;31mUh, wrong :/\033[m')
-         elif Wdtb == 2:
+             time.sleep(1.5)
+             os.system("clear")
+         elif Wdta == 2:
            os.system("clear")
            print('\033[7;32mCorrect :D\033[m')
            time.sleep(2)
@@ -370,8 +374,12 @@ while True:
            Hmcdtrh = int(input('>> \033[0;33m'))
            if Hmcdtrh == 2:
              print('\033[7;31mUh, wrong :/\033[m')
+             time.sleep(1.5)
+             os.system("clear")
            elif Hmcdtrh == 1:
              print('\033[7;31mUh, wrong :/\033[m')
+             time.sleep(1.5)
+             os.system("clear")
            elif Hmcdtrh == 0:
              os.system("clear")
              print('\033[7;32mCorrect :D\033[m')
@@ -388,6 +396,8 @@ while True:
              Witlpioss = int(input('>> \033[0;33m'))
              if Witlpioss == 0:
                  print('\033[7;31mUh, wrong :/\033[m')
+                 time.sleep(1.5)
+                 os.system("clear")
              elif Witlpioss == 1:
                  os.system("clear")
                  print('\033[7;32mCorrect :D\033[m')
@@ -404,10 +414,16 @@ while True:
                  Wotaac = int(input('>> \033[0;33m'))
                  if Wotaac == 0:
                     print('\033[7;31mUh, wrong :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")                 
                  elif Wotaac == 1:
                     print('\033[7;31mUh, wrong :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")                 
                  elif Wotaac == 2:
                     print('\033[7;31mUh, wrong :/\033[m')
+                    time.sleep(1.5)
+                    os.system("clear")
                  elif Wotaac == 3:
                     os.system("clear")
                     print('\033[7;32mCorrect :D\033[m')
@@ -438,8 +454,12 @@ while True:
                         Wmhslad = int(input('>> \033[0;33m'))
                         if Wmhslad == 0:
                             print('\033[7;31mUh, wrong :/\033[m')
+                            time.sleep(1.5)
+                            os.system("clear")                        
                         elif Wmhslad == 1:
                             print('\033[7;31mUh, wrong :/\033[m')
+                            time.sleep(1.5)
+                            os.system("clear")
                         elif Wmhslad == 2:
                             os.system("clear")
                             print('\033[7;32mCorrect :D\033[m')
@@ -456,15 +476,15 @@ while True:
                             Hmldtah = int(input('>> \033[0;33m'))
                             if Hmldtah == 0:
                                 print('\033[7;31mUh, wrong :/\033[m')
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                
                             elif Hmldtah == 1:
                                 print('\033[7;31mUh, wrong :/\033[m')
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                 
                             elif Hmldtah == 3:
                                 print('\033[7;31mUh, wrong :/\033[m')
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                
                             elif Hmldtah == 2:
                                 os.system("clear")
@@ -482,7 +502,7 @@ while True:
                             Witmpritw = int(input('>> \033[0;33m'))
                             if Witmpritw == 0:
                                 print('\033[7;31mUh, wrong :/\033[m')
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                
                             elif Witmpritw == 1:
                                 os.system("clear")
@@ -491,11 +511,11 @@ while True:
                                 os.system("clear")
                             elif Witmpritw == 2:
                                 print('\033[7;31mUh, wrong :/\033[m')
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                
                             elif Witmpritw == 3:
                                 print('\033[7;31muh, wrong :/\033[m')          
-                                time.sleep(1)
+                                time.sleep(1.5)
                                 os.system("clear")                
                             else:
                                 print('\033[7;35mInvalid option. Try again.\033[m') 
@@ -535,11 +555,11 @@ while True:
              
              elif Witlpioss == 2:
                  print('\033[7;31mUh, wrong :/\033[m')
-                 time.sleep(1)
+                 time.sleep(1.5)
                  os.system("clear")                
              elif Witlpioss == 3:
                  print('\033[7;31mUh, wrong :/\033[m')
-                 time.sleep(1)
+                 time.sleep(1.5)
                  os.system("clear")                
              else:
                  print('\033[7;35mInvalid option. Try again.\033[m')
@@ -548,16 +568,16 @@ while True:
                   
            elif Hmcdtrh == 3:
              print('\033[7;31mUh, wrong :/\033[m')
-             time.sleep(1)
+             time.sleep(1.5)
              os.system("clear")                
            else:              
              print('\033[7;35mInvalid option. Try again.\033[m')
              time.sleep(1)
              os.system("clear")  
              
-         elif Wdtb == 3:
+         elif Wdta == 3:
            print('\033[7;31mUh, wrong :/\033[m')
-           time.sleep(1)
+           time.sleep(1.5)
            os.system("clear")               
          else:
              print('\033[7;35mInvalid option. Try again.\033[m')
@@ -566,15 +586,15 @@ while True:
                       
       elif Wwtsww == 1:
           print('\033[7;31mUh, wrong :/\033[m')
-          time.sleep(1)
+          time.sleep(1.5)
           os.system("clear")                
       elif Wwtsww == 2:
           print('\033[7;31mUh, wrong :/\033[m')
-          time.sleep(1)
+          time.sleep(1.5)
           os.system("clear")                
       elif Wwtsww == 0:
           print('\033[7;31mUh, wrong :/\033[m')
-          time.sleep(1)
+          time.sleep(1.5)
           os.system("clear")                
       else:
           print('\033[7;35mInvalid option. Try again.\033[m')
