@@ -9,23 +9,23 @@ import os
 import time
 
 os.system("clear")
-
-while True:
- print('''\033[0;35mEscolha o seu idioma. | Choose your language.
+try:
+ while True:
+  print('''\033[0;35mEscolha o seu idioma. | Choose your language.
 	
 [ \033[m0\033[0;35m ] Português
 [ \033[m1\033[0;35m ] English\033[m''')
- Idioma = int(input('>> \033[0;33m'))
- os.system("clear")
- time.sleep(0.5)
- if Idioma == 0:
-  while True:  
-   print('''\033[0;35m[ \033[m0\033[0;35m ] Começar
+  Idioma = int(input('>> \033[0;33m'))
+  os.system("clear")
+  time.sleep(0.5)
+  if Idioma == 0:
+   while True:  
+    print('''\033[0;35m[ \033[m0\033[0;35m ] Começar
       
 [ \033[m98\033[0;35m ] Idioma
 [ \033[m99\033[0;35m ]\033[m \033[0;31mSair\033[m''')
-   opção = int(input('>> \033[0;33m'))
-   if opção == 0:
+    opção = int(input('>> \033[0;33m'))
+    if opção == 0:
       os.system("clear")
       print('\033[0;35mOk, vamos começar\033[m')
       time.sleep(2)
@@ -303,26 +303,26 @@ while True:
           time.sleep(1)
           os.system("clear")   
           
-   elif opção == 98:
+    elif opção == 98:
        os.system("clear")
        break
-   elif opção == 99:
+    elif opção == 99:
        print('\033[7;35mVocê saiu do Quiz. Volte sempre!\033[m')
        exit()
           
-   else:
+    else:
        print('\033[7;35mOpção inválida. Tente novamente\033[m')      
        time.sleep(1)
        os.system("clear")
        
- elif Idioma == 1:
-  while True:
-   print('''\033[0;35m[ \033[m0\033[0;35m ] Start
+  elif Idioma == 1:
+   while True:
+    print('''\033[0;35m[ \033[m0\033[0;35m ] Start
       
 [ \033[m98\033[0;35m ] Language
 [ \033[m99\033[0;35m ]\033[m \033[0;31mExit\033[m''')
-   opção = int(input('>> \033[0;33m'))
-   if opção == 0:
+    option = int(input('>> \033[0;33m'))
+    if option == 0:
       os.system("clear")
       print('\033[0;35mOk, let`s start\033[m')
       time.sleep(2)
@@ -601,14 +601,14 @@ while True:
           time.sleep(1)
           os.system("clear")
                
-   elif opção == 98:
+    elif option == 98:
        os.system("clear")
        break
-   elif opção == 99:
+    elif option == 99:
        print('\033[7;35mYou left the Quiz. Come back anytime!\033[m')
        exit()
           
-   else:
+    else:
        print('\033[7;35mInvalid option. Try again.\033[m')      
        time.sleep(1)
        os.system("clear")
@@ -616,3 +616,5 @@ while True:
     print('\033[7;35mOpção inválida. | Invalid option.\033[m')  
     time.sleep(1)
     os.system("clear")  
+except:
+     print('\033[7;35mDigite apenas números | Just type numbers.\033[m')
