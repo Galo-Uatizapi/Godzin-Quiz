@@ -617,4 +617,4 @@ try:
     time.sleep(1)
     os.system("clear")  
 except:
-     print('\033[7;35mDigite apenas números | Just type numbers.\033[m')
+     print('\033[7;35mDigite apenas números. | Just type numbers.\033[m')
